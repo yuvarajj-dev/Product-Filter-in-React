@@ -1,24 +1,18 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import C1 from './DATA Transfer/C1';
+import E1 from './DATA Transfer/E1';
+
 
 function App() {
+  const [getdata,setgetdata] = useState("")
+  const [ele2,setele2] = useState("")
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <C1 trans={(data) => { setgetdata(data) }} FromE2={ele2} />
+      <E1 getdata={getdata} FromE2={(data)=>{setele2(data)}} /> */}
+      
+    </>
   );
 }
 
