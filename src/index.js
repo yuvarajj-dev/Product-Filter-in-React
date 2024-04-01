@@ -8,8 +8,9 @@ import Project from './Components/Project';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     <Project />
+
   </React.StrictMode>
 );
 
